@@ -5,6 +5,11 @@ import { writeFileSync } from 'fs';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: './',  // Use relative path for production
+  preview: {
+    port: 3000,
+    strictPort: true,
+  },
   plugins: [
     react(),
     // Plugin to copy _redirects file to the output directory
@@ -13,7 +18,7 @@ export default defineConfig({
       closeBundle: () => {
         const to = resolve(__dirname, 'dist/_redirects');
         try {
-          const content = '/* /index.html 200\n/sitemap.xml /sitemap.xml 200\n/robots.txt /robots.txt 200';
+          const content = '/*    /index.html   200';
           writeFileSync(to, content);
           console.log('_redirects file copied successfully');
         } catch (err) {

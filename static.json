@@ -1,0 +1,15 @@
+{
+  "root": "dist/",
+  "clean_urls": false,
+  "routes": {
+    "/**": "/index.html"
+  },
+  "https_only": true,
+  "headers": {
+    "/**": {
+      "Cache-Control": "no-cache, no-store, must-revalidate",
+      "Pragma": "no-cache",
+      "Expires": "0"
+    }
+  }
+}
