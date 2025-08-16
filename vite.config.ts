@@ -7,4 +7,14 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  server: {
+    // This enables SPA fallback in development
+    fs: {
+      strict: false
+    }
+  },
+  // For production build
+  build: {
+    outDir: 'dist',
+  },
 });
