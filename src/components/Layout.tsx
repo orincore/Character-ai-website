@@ -34,7 +34,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <Smartphone className="w-5 h-5 text-white" />
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">
-                Orincore
+                Clyra AI
               </span>
             </Link>
 
@@ -103,7 +103,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <div className="w-8 h-8 bg-gradient-to-br from-indigo-500 to-violet-600 rounded-lg flex items-center justify-center">
                   <Smartphone className="w-5 h-5 text-white" />
                 </div>
-                <span className="text-xl font-bold">Orincore Technologies</span>
+                <span className="text-xl font-bold">Clyra AI by Orincore Technologies</span>
               </div>
               <p className="text-gray-300 mb-4 max-w-md">
                 Leading the future of mobile technology with innovative solutions and exceptional user experiences.
@@ -176,7 +176,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
           <div className="border-t border-gray-800 mt-12 pt-8 text-center">
             <p className="text-gray-300 text-sm">
-              © 2025 Orincore Technologies. All rights reserved. Led by CEO Adarsh Suradkar.
+              © 2025 Clyra AI by Orincore Technologies. All rights reserved. Led by CEO Adarsh Suradkar.
             </p>
           </div>
         </div>

@@ -62,9 +62,9 @@ const HomePage: React.FC = () => {
   return (
     <>
       <Helmet>
-        <title>Orincore Technologies - Innovative Mobile Solutions</title>
-        <meta name="description" content="Led by CEO Adarsh Suradkar, Orincore Technologies delivers cutting-edge mobile applications with exceptional user experiences. Download our app today." />
-        <meta name="keywords" content="mobile app, technology, innovation, Adarsh Suradkar, Orincore" />
+        <title>Clyra AI - Innovative Mobile Solutions</title>
+        <meta name="description" content="Led by CEO Adarsh Suradkar, Clyra AI delivers cutting-edge AI-powered mobile experiences with exceptional user interfaces. Download our app today." />
+        <meta name="keywords" content="mobile app, technology, innovation, Adarsh Suradkar, Clyra AI" />
       </Helmet>
 
       {/* Hero Section */}
@@ -79,7 +79,7 @@ const HomePage: React.FC = () => {
               </span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed animate-fade-in-up animation-delay-200">
-              Experience the next generation of mobile technology with Orincore's revolutionary app. 
+              Experience the next generation of AI-powered mobile technology with Clyra AI.
               Designed for efficiency, built for the future.
             </p>
             
@@ -127,7 +127,7 @@ const HomePage: React.FC = () => {
       {/* Features Overview */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-10 animate-fade-in-up">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Powerful Features Built for You
             </h2>
